@@ -250,9 +250,10 @@
 
     
 
-        <section id="contact">
+         <section id="contact">
         <h2>Contact Us</h2>
-        <form>
+        <form action="https://api.web3forms.com/submit"method="post">
+            <input type="hidden" name="access_key" value="de3cafb1-7040-4bad-a83c-3512736e4119">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -264,8 +265,10 @@
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
-
+            
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
             <button type="submit">Submit</button>
+		
     		<p>Click here to Contact with me on Whats app!!..</p>
      		<button type="Contact Me"><a href="https://wa.me/+919043800820?text=Hi Kesavanand!!!" target="_blank" >Contact with me</a>
 </button>
